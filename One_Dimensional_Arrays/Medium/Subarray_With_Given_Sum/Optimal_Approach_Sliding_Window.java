@@ -2,7 +2,7 @@ package One_Dimensional_Arrays.Medium.Subarray_With_Given_Sum;
 
 import java.util.Scanner;
 
-public class Optimal_Approach {
+public class Optimal_Approach_Sliding_Window {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter the size: ");
