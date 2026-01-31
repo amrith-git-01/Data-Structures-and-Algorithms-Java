@@ -37,8 +37,8 @@ public class Solution {
         for (int i = arr.length - 1; i > breakpoint; i--) {
             if (arr[i] > arr[breakpoint]) {
                 swap(arr, i, breakpoint);
+                break;
             }
-            break;
         }
 
         reverse(arr, breakpoint + 1, arr.length - 1);
