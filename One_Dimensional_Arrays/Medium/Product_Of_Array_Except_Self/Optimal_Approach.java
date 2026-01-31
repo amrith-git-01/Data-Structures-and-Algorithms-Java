@@ -21,7 +21,7 @@ public class Optimal_Approach {
         int res[] = new int[arr.length];
         res[0] = 1;
         for (int i = 1; i < arr.length; i++) {
-            res[i] = arr[i - 1] * arr[i - 1];
+            res[i] = arr[i - 1] * res[i - 1];
         }
         int suffix = 1;
         for (int i = arr.length - 1; i >= 0; i--) {
