@@ -21,6 +21,7 @@ public class Solution {
 
     public static void nextPermutation(int arr[]) {
         int breakpoint = -1;
+
         for (int i = arr.length - 2; i >= 0; i--) {
             if (arr[i] < arr[i + 1]) {
                 breakpoint = i;
@@ -36,9 +37,10 @@ public class Solution {
         for (int i = arr.length - 1; i > breakpoint; i--) {
             if (arr[i] > arr[breakpoint]) {
                 swap(arr, i, breakpoint);
-                break;
             }
+            break;
         }
+
         reverse(arr, breakpoint + 1, arr.length - 1);
     }
 
