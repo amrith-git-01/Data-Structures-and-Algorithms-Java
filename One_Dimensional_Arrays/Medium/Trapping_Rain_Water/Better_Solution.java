@@ -27,7 +27,7 @@ public class Better_Solution {
             rightMax[i] = Math.max(rightMax[i + 1], arr[i]);
         }
 
-        for(int i = 0; i < arr.length; i++){
+        for (int i = 0; i < arr.length; i++) {
             water += Math.min(leftMax[i], rightMax[i]) - arr[i];
         }
         return water;
