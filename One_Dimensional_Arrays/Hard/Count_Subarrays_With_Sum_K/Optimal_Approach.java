@@ -3,7 +3,7 @@ package One_Dimensional_Arrays.Hard.Count_Subarrays_With_Sum_K;
 import java.util.HashMap;
 import java.util.Scanner;
 
-public class Better_Solution {
+public class Optimal_Approach {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter the size: ");
