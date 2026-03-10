@@ -29,7 +29,7 @@ public class Optimal_Approach {
     }
 
     public static int expand(String str, int left, int right) {
-        while (left > 0 && right < str.length() && str.charAt(left) == str.charAt(right)) {
+        while (left >= 0 && right < str.length() && str.charAt(left) == str.charAt(right)) {
             left--;
             right++;
         }
