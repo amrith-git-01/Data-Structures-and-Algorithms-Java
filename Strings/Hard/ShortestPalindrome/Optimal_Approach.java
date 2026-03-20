@@ -1,4 +1,4 @@
-package Strings.Medium.ShortestPalindrome;
+package Strings.Hard.ShortestPalindrome;
 
 import java.util.Scanner;
 

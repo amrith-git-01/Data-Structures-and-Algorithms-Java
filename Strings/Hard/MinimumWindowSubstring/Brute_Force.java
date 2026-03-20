@@ -1,4 +1,4 @@
-package Strings.Medium.MinimumWindowSubstring;
+package Strings.Hard.MinimumWindowSubstring;
 
 import java.util.Scanner;
 
