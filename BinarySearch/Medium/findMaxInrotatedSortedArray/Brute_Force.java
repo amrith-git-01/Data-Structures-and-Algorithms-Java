@@ -1,4 +1,4 @@
-package BinarySearch.Medium.findMaxInrotatedSortedArray;
+package BinarySearch.Medium.FindMaxInrotatedSortedArray;
 
 import java.util.Scanner;
 
