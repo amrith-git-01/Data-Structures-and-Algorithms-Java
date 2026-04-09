@@ -15,9 +15,10 @@ public class Solution {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Enter the size: ");
+        System.out.println("Enter the size1: ");
         int size1 = scanner.nextInt();
         Node head1 = createLL(size1, scanner);
+        System.out.println("Enter the size2: ");
         int size2 = scanner.nextInt();
         Node head2 = createLL(size2, scanner);
         Node head = mergeLL(head1, head2);
