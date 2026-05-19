@@ -1,4 +1,4 @@
-package LinkedList.Medium.ReverseKGroups;
+package LinkedList.Hard.ReverseKGroups;
 
 import java.util.Scanner;
 
